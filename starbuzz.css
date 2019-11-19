@@ -74,7 +74,7 @@ div#tablerow {
   display: table-row;
 }
 #drink {
-  display: table;
+  display: table-cell;
   background-color: #efe5d0;
   width: 20%;
   padding: 15px;
@@ -87,4 +87,12 @@ div#tablerow {
   position: absolute;
   top: 30px;
   left: 365px;
+}
+#coupon {
+  position: fixed;
+  top: 350px;
+  left: -90px;
+}
+#coupon a, img {
+  border: none;
 }
